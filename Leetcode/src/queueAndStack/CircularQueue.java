@@ -68,10 +68,6 @@ public class CircularQueue {
 		cq.dequeue();
 		System.out.println(cq.isFull());
 		System.out.println(cq.isEmpty());
-	
-		
-		
-		
 
 	}
 

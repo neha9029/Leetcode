@@ -1,5 +1,7 @@
 package solved;
 
+import java.util.HashMap;
+
 public class ContainsDuplicateII {
 	   public boolean containsNearbyDuplicate(int[] nums, int k) {
 	        HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();

@@ -1,8 +1,17 @@
 package linkedList;
 
+
 public class MiddleOfTheLinkedList {
 
-   /* public ListNode middleNode(ListNode head) {
+
+	class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) { val = x; }
+	}
+	
+	class Solution {
+    public ListNode middleNode(ListNode head) {
         
         ListNode current = head;
 
@@ -26,5 +35,5 @@ public class MiddleOfTheLinkedList {
        
     }
     
-     */
+	}
 }

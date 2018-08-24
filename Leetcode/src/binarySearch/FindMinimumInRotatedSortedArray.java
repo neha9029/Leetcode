@@ -18,8 +18,7 @@ public class FindMinimumInRotatedSortedArray {
             if(nums[left] < nums[mid] && nums[left]< nums[right]){
                       return nums[left];
             }
-            if(nums[mid] <= nums[left] && nums[mid] <=nums[right] && mid - left <2){
-                  
+            if(nums[mid] <= nums[left] && nums[mid] <=nums[right] && mid - left <2){                  
                       return min;
                
             }
@@ -29,10 +28,9 @@ public class FindMinimumInRotatedSortedArray {
 
             }
             else
-            {
-                    
+            {  
                    right = right-1;
-                   if(nums[left]== nums[right] && nums[left] == nums[mid]){
+                   if(nums[left] == nums[right] && nums[left] == nums[mid]){
                         return nums[mid+1];
                    }
                 

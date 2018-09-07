@@ -32,7 +32,6 @@ public class FairCandySwap {
 			removeInt = middle - returnA;
 			if(set.contains(removeInt)){
 				returnA = A[i];
-
 				returnB = removeInt;
 				break;                
 			}
